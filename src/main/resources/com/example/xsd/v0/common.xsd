@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://www.example.com/v0/common" targetNamespace="https://www.example.com/v0/common" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.1.0">
+	<xsd:element name="employee">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="firstname" type="xsd:string" />
+				<xsd:element name="lastname" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

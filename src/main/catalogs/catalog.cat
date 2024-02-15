@@ -1,0 +1,1 @@
+REWRITE_SYSTEM "https://www.example.com/xsd/" "../resources/com/example/xsd/"
